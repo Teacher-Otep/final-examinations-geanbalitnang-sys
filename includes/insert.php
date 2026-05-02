@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             ':contact'    => $contact
         ]);
 
-        header("Location: ../public/index.php?status=success");
+        header("Location: ../index.php?status=success");
         exit();
         
     } catch (PDOException $e) {
